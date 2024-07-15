@@ -1,0 +1,36 @@
+.landing-content {
+    text-align: center;
+    border: 2px solid white;
+    padding: 100px;
+    border-radius: 10px;
+    max-width: 1500px;
+}
+
+.landing-content h1 {
+    font-size: 3em;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.landing-content p {
+    font-size: 1em;
+    color: white;
+    line-height: 1.5;
+    margin-bottom: 30px;
+    padding: 20px;
+}
+
+
+.login-button {
+    font-size: 1.5em;
+    padding: 10px 40px;
+    color: black;
+    background-color: white;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.login-button:hover {
+    background-color: rgba(0, 115, 230, 0.1);
+}

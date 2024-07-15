@@ -1,0 +1,128 @@
+.cart-page {
+    padding: 20px;
+}
+
+.cart-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cart-items {
+    list-style: none;
+    padding: 10px;
+    width: 70%;
+    background-color: white;
+    border-radius: 5px;
+    width: 1000px;
+}
+
+.cart-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-items: center;
+    padding: 15px;
+    border-bottom: 1px solid #ccc;
+}
+
+.product {
+    display: flex;
+    align-items: center;
+}
+
+.product img {
+    width: 150px;
+    height: 150px;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+.product-details h3 {
+    margin: 0;
+    font-size: 16px;
+}
+
+.product-details p {
+    margin: 5px 0 0;
+    font-size: 14px;
+}
+
+.price {
+    width: 100px;
+    text-align: center;
+    color: rgb(21, 28, 56);
+    font-weight: bold;
+
+}
+
+
+.cart-summary {
+    width: 25%;
+    padding: 20px ;
+    background-color: white;
+    border-radius: 8px;
+    margin-left: auto;
+
+}
+
+.cart-summary h2 {
+    margin-top: 0;
+}
+
+.cart-summary p {
+    margin: 10px 0;
+}
+
+.cart-summary .total {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.checkout-button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(21, 28, 56);
+    color: white;
+    border: 1px solid #000;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.checkout-button:hover {
+    background-color: rgb(54, 74, 151);
+}
+
+.shipment-selection {
+    margin: 20px 0;
+}
+
+.shipment-selection h2 {
+    font-size: 18px;
+    margin: 0 0 10px;
+}
+
+.shipment-selection select {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.shipment-selection button {
+    display: inline-block;
+    padding: 5px 10px;
+    margin-top: 10px;
+    background-color: rgb(21, 28, 56);
+    color: white;
+    border: 1px solid #000;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.shipment-selection button:hover {
+    background-color: rgb(54, 74, 151);
+}
+
+.empty {
+    color: white;
+}
